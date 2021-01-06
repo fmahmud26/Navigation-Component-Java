@@ -21,10 +21,8 @@ public class SecondFragment extends Fragment {
     private NavController navController;
     private FragmentSecondBinding binding;
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_second, container, false);
         return binding.getRoot();
     }
@@ -34,7 +32,6 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         navController = Navigation.findNavController(view);
-
         setUpViewClickListener();
     }
 

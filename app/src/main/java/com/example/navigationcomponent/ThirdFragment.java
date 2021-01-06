@@ -23,7 +23,6 @@ public class ThirdFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_third, container, false);
         return binding.getRoot();
     }
@@ -33,7 +32,6 @@ public class ThirdFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         navController = Navigation.findNavController(view);
-
         setUpViewClickListener();
     }
 
