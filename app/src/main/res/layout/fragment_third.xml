@@ -3,12 +3,10 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ThirdFragment">
-
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button"
@@ -21,7 +19,6 @@
             android:textAllCaps="false"
             android:textSize="24sp"
             android:textStyle="bold" />
-
 
     </RelativeLayout>
 
